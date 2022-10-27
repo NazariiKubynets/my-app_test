@@ -2,14 +2,13 @@
 import './App.css';
 import ComponentsArr from './Components/ComponentsArr';
 import Number from './Components/Number';
-import ComponentPosts from './Components/Posts/ComponentPosts';
 import PostsOne from './Components/PostsOne/PostsOne';
 
 function App() {
 
   return (
     <div className="App">
-      <PostsOne/>
+      <PostsOne />
       {/* <ComponentPosts/> */}
       {/* <ComponentsArr/> */}
       {/* <Number/> */}

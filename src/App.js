@@ -6,7 +6,8 @@ function App() {
 
   return (
     <div className="App">
-      <PostsOne />
+      {/* <PostsOne /> */}
+      <h1>Hello</h1>
     </div>
   );
 }

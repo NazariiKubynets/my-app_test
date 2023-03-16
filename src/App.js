@@ -1,6 +1,6 @@
 
 import './App.css';
-import PostsOne from './Components/PostsOne/PostsOne';
+import PostsOne from './Components/PostsOne';
 
 function App() {
 

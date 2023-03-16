@@ -55,7 +55,7 @@ const Posts = () => {
 
   return (
     <div>
-      <MyButton style={{ marginLeft: '30px' }} onClick={() => setVisibleModal(true)}>Add post</MyButton>
+      <MyButton style={{ marginLeft: '20px' }} onClick={() => setVisibleModal(true)}>Add post</MyButton>
       <MyModal visible={visibleModal} setVisible={setVisibleModal}>
         <Form create={createPost} />
       </MyModal>
